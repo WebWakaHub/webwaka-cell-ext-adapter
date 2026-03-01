@@ -16,7 +16,10 @@
     "extensibility-modularity"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "@webwaka/organelle-boundary-context": "workspace:*",
+    "@webwaka/organelle-external-adapter": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "jest": "^29.0.0",
